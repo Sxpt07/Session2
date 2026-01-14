@@ -1,0 +1,10 @@
+my_age = int(input("Masukkan umur kamu: "))
+driving_age = int(input("Masukkan batas umur minimum mengemudi: "))
+
+print(my_age >= driving_age)
+
+
+if my_age >= driving_age:
+    print("Hasil: True (Kamu sudah cukup umur untuk mengemudi)")
+else:
+    print("Hasil: False (Kamu belum cukup umur untuk mengemudi)")
