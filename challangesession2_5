@@ -1,0 +1,9 @@
+age = 18
+
+passed_test = True
+
+
+if age >= 17 and passed_test:
+    print("Selamat! Kamu dapat memperoleh SIM.")
+else:
+    print("Maaf, kamu belum bisa memperoleh SIM.")
